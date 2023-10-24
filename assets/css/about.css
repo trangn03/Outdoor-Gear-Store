@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+/* About Us */
+.about-us {
+    background-color: #f9f9f9;
+    padding: 80px 0; /* Increased padding for more visual separation */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+}
+
+.about-us img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+/* Contact Us */
+.contact {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.contact p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.info-item {
+    text-align: center;
+}
+
+.info-item i {
+    font-size: 36px;
+    color: #0074D9;
+}
+
+.info-item p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.contact-form .form-group {
+    margin: 10px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #0074D9;
+}
+
+.contact-form button {
+    background-color: #FF5733;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form button:hover {
+    background-color: #FF8C5A;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/cart.css">
+</head>
+
+<body>
+    <!-- Header and Navigation (nav-bar) -->
+    <header class="navbar">
+        <div class="container">
+            <a class="logo" href="/">Outdoor Gear Store</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </header>
+    
+    <!-- Main Content Area for Cart Page -->
+    <main>
+        <section class="cart">
+            <div class="container">
+                <h2>Your Cart</h2>
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <div class="item-image">
+                            <img src="./assets/img/product_1.jpg" alt="Product 1">
+                        </div>
+                        <div class="item-details">
+                            <h3>Tent</h3>
+                        </div>
+                        <div class="item-quantity">
+                            <!-- <input type="number" value="1" min="2"> -->
+                        </div>
+                        <div class="item-total">
+                            <p class="total-price">$99.99</p>
+                        </div>
+                        <div class="item-remove">
+                            <button class="remove-button">Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-summary">
+                    <div class="summary-item">
+                        <p>Subtotal:</p>
+                        <p class="subtotal-amount">$99.99</p>
+                    </div>
+                    <div class="summary-item">
+                        <p>Shipping:</p>
+                        <p class="shipping-amount">Free</p>
+                    </div>
+                    <div class="summary-item">
+                        <p>Total:</p>
+                        <p class="total-amount">9$9.99</p>
+                    </div>
+                </div>
+                <div class="checkout-button">
+                    <a href="checkout.html" class="btn-primary">Proceed to Checkout</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="sticky-footer">
+        <p>&copy; 2023 Outdoor Gear Store</p>
+    </footer>
+    
+    <!-- Include JavaScript file -->
+    <script src="./assets/script.js"></script>
+</body>
+</html>
